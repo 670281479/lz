@@ -1,0 +1,78 @@
+{
+  "userId": 1,
+  "userNo": "admin",
+  "userName": "管理员",
+  "userTel": "18888888888",
+  "permissions": [
+    {
+      "path": "user",
+      "name": "user",
+      "menuNo": 1,
+      "meta": {
+        "icon": "el-icon-user-solid",
+        "title": "用户管理",
+        "search": true,
+        "add": true,
+        "delete": true,
+        "update": true,
+        "import": true,
+        "export": true,
+        "_lock": true
+      },
+      "children": [
+        {
+          "path": "user/UserInfo",
+          "name": "UserInfo",
+          "menuNo": 1,
+          "meta": {
+            "icon": null,
+            "title": "用户列表",
+            "search": true,
+            "add": true,
+            "delete": true,
+            "update": true,
+            "import": true,
+            "export": true,
+            "_lock": true
+          },
+          "children": null
+        },
+        {
+          "path": "user/ChangePwd",
+          "name": "ChangePwd",
+          "menuNo": 2,
+          "meta": {
+            "icon": null,
+            "title": "修改密码",
+            "search": true,
+            "add": true,
+            "delete": true,
+            "update": true,
+            "import": true,
+            "export": true,
+            "_lock": true
+          },
+          "children": null
+        }
+      ]
+    },
+   
+    {
+      "path": "MenuManage",
+      "name": "MenuManage",
+      "menuNo": 3,
+      "meta": {
+        "icon": "el-icon-menu",
+        "title": "菜单管理",
+        "search": true,
+        "add": true,
+        "delete": true,
+        "update": true,
+        "import": true,
+        "export": true,
+        "_lock": true
+      },
+      "children": null
+    }
+  ]
+}
